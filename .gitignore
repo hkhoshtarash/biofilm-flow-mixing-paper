@@ -1,0 +1,491 @@
+__pycache__/
+*.pyc
+.data-downloads/
+.DS_Store
+
+# Original large files are restored from release assets, not normal Git.
+/1- Biofilm section images/Raw_Images/GrowthBF_T0.tif
+/1- Biofilm section images/Raw_Images/GrowthBF_T10.tif
+/1- Biofilm section images/Raw_Images/GrowthBF_T12.tif
+/1- Biofilm section images/Raw_Images/GrowthBF_T13.tif
+/1- Biofilm section images/Raw_Images/GrowthBF_T6.tif
+/1- Biofilm section images/Raw_Images/GrowthBF_T9.tif
+/2- openFOAM_setup_cases/1- Flow/T0/constant/polyMesh/faces
+/2- openFOAM_setup_cases/1- Flow/T0/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/1- Flow/T0/constant/polyMesh/owner
+/2- openFOAM_setup_cases/1- Flow/T0/constant/polyMesh/points
+/2- openFOAM_setup_cases/1- Flow/T0/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/1- Flow/T10/0/K
+/2- openFOAM_setup_cases/1- Flow/T10/0/U
+/2- openFOAM_setup_cases/1- Flow/T10/0/eps
+/2- openFOAM_setup_cases/1- Flow/T10/0/p
+/2- openFOAM_setup_cases/1- Flow/T10/constant/polyMesh/faces
+/2- openFOAM_setup_cases/1- Flow/T10/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/1- Flow/T10/constant/polyMesh/owner
+/2- openFOAM_setup_cases/1- Flow/T10/constant/polyMesh/points
+/2- openFOAM_setup_cases/1- Flow/T10/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/1- Flow/T12/0/K
+/2- openFOAM_setup_cases/1- Flow/T12/0/U
+/2- openFOAM_setup_cases/1- Flow/T12/0/eps
+/2- openFOAM_setup_cases/1- Flow/T12/0/p
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/cellZones
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/faces
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/owner
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/points
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/sets/biofilm
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/sets/biofilmCellSet
+/2- openFOAM_setup_cases/1- Flow/T12/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/1- Flow/T13/0/K
+/2- openFOAM_setup_cases/1- Flow/T13/0/U
+/2- openFOAM_setup_cases/1- Flow/T13/0/eps
+/2- openFOAM_setup_cases/1- Flow/T13/0/p
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/cellProc
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/cellZones
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/faces
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/owner
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/points
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/sets/biofilm
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/sets/biofilmCellSet
+/2- openFOAM_setup_cases/1- Flow/T13/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/1- Flow/T6/0/K
+/2- openFOAM_setup_cases/1- Flow/T6/0/U
+/2- openFOAM_setup_cases/1- Flow/T6/0/eps
+/2- openFOAM_setup_cases/1- Flow/T6/0/p
+/2- openFOAM_setup_cases/1- Flow/T6/constant/polyMesh/faces
+/2- openFOAM_setup_cases/1- Flow/T6/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/1- Flow/T6/constant/polyMesh/owner
+/2- openFOAM_setup_cases/1- Flow/T6/constant/polyMesh/points
+/2- openFOAM_setup_cases/1- Flow/T6/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/1- Flow/T9/0/K
+/2- openFOAM_setup_cases/1- Flow/T9/0/U
+/2- openFOAM_setup_cases/1- Flow/T9/0/eps
+/2- openFOAM_setup_cases/1- Flow/T9/0/p
+/2- openFOAM_setup_cases/1- Flow/T9/constant/polyMesh/faces
+/2- openFOAM_setup_cases/1- Flow/T9/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/1- Flow/T9/constant/polyMesh/owner
+/2- openFOAM_setup_cases/1- Flow/T9/constant/polyMesh/points
+/2- openFOAM_setup_cases/1- Flow/T9/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/2- Transport/T0/0/T
+/2- openFOAM_setup_cases/2- Transport/T0/0/U
+/2- openFOAM_setup_cases/2- Transport/T0/0/p
+/2- openFOAM_setup_cases/2- Transport/T0/constant/polyMesh/faces
+/2- openFOAM_setup_cases/2- Transport/T0/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/2- Transport/T0/constant/polyMesh/owner
+/2- openFOAM_setup_cases/2- Transport/T0/constant/polyMesh/points
+/2- openFOAM_setup_cases/2- Transport/T0/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/2- Transport/T10/0/T
+/2- openFOAM_setup_cases/2- Transport/T10/0/U
+/2- openFOAM_setup_cases/2- Transport/T10/0/p
+/2- openFOAM_setup_cases/2- Transport/T10/constant/polyMesh/faces
+/2- openFOAM_setup_cases/2- Transport/T10/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/2- Transport/T10/constant/polyMesh/owner
+/2- openFOAM_setup_cases/2- Transport/T10/constant/polyMesh/points
+/2- openFOAM_setup_cases/2- Transport/T10/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/2- Transport/T12/0/T
+/2- openFOAM_setup_cases/2- Transport/T12/0/U
+/2- openFOAM_setup_cases/2- Transport/T12/0/p
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/cellZones
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/faces
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/owner
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/points
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/sets/biofilm
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/sets/biofilmCellSet
+/2- openFOAM_setup_cases/2- Transport/T12/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/2- Transport/T13/0/T
+/2- openFOAM_setup_cases/2- Transport/T13/0/U
+/2- openFOAM_setup_cases/2- Transport/T13/0/p
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/cellProc
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/cellZones
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/faces
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/owner
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/points
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/sets/biofilm
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/sets/biofilmCellSet
+/2- openFOAM_setup_cases/2- Transport/T13/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/2- Transport/T6/0/T
+/2- openFOAM_setup_cases/2- Transport/T6/0/U
+/2- openFOAM_setup_cases/2- Transport/T6/0/p
+/2- openFOAM_setup_cases/2- Transport/T6/constant/geometry/Solid_T6_T9_T10_T12_T13_Finalized_Scaled.stl
+/2- openFOAM_setup_cases/2- Transport/T6/constant/geometry/T6_Finalized_Scaled.stl
+/2- openFOAM_setup_cases/2- Transport/T6/constant/polyMesh/faces
+/2- openFOAM_setup_cases/2- Transport/T6/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/2- Transport/T6/constant/polyMesh/owner
+/2- openFOAM_setup_cases/2- Transport/T6/constant/polyMesh/points
+/2- openFOAM_setup_cases/2- Transport/T6/constant/polyMesh/surfaceIndex
+/2- openFOAM_setup_cases/2- Transport/T9/0/T
+/2- openFOAM_setup_cases/2- Transport/T9/0/U
+/2- openFOAM_setup_cases/2- Transport/T9/0/p
+/2- openFOAM_setup_cases/2- Transport/T9/constant/polyMesh/faces
+/2- openFOAM_setup_cases/2- Transport/T9/constant/polyMesh/neighbour
+/2- openFOAM_setup_cases/2- Transport/T9/constant/polyMesh/owner
+/2- openFOAM_setup_cases/2- Transport/T9/constant/polyMesh/points
+/2- openFOAM_setup_cases/2- Transport/T9/constant/polyMesh/surfaceIndex
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T10.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1038.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T104.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T114.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T12.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1246.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T126.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1366.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T14.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T150.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T16.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1642.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T166.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T18.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T1800.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T182.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T198.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T2.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T20.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T218.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T22.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T238.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T24.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T26.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T262.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T28.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T286.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T314.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T32.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T34.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T344.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T378.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T38.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T4.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T414.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T42.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T454.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T46.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T50.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T54.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T546.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T598.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T6.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T60.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T656.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T66.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T718.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T72.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T788.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T8.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T80.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T86.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T864.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T946.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T96.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/Muv.mat
+/3- Velocity_Conc_fields/ConcentrationField/T0/Muv_cut.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T10.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1038.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T104.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T114.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T12.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1246.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T126.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1366.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T14.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T150.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T16.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1642.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T166.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T18.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T1800.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T182.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T198.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T2.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T20.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T218.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T22.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T238.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T24.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T26.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T262.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T28.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T286.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T314.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T32.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T34.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T344.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T378.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T38.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T4.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T414.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T42.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T454.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T46.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T50.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T54.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T546.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T598.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T6.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T60.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T656.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T66.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T718.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T72.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T788.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T8.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T80.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T86.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T864.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T946.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T96.mat
+/3- Velocity_Conc_fields/ConcentrationField/T10/Muv_cut.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T10.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1038.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T104.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T114.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T12.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1246.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T126.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1366.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T14.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T150.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T16.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1642.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T166.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T18.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T1800.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T182.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T198.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T2.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T20.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T218.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T22.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T238.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T24.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T26.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T262.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T28.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T286.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T314.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T32.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T34.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T344.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T378.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T38.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T4.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T414.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T42.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T454.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T46.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T50.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T54.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T546.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T598.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T6.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T60.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T656.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T66.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T718.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T72.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T788.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T8.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T80.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T86.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T864.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T946.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T96.mat
+/3- Velocity_Conc_fields/ConcentrationField/T12/Muv_cut.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T10.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1038.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T104.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T114.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T12.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1246.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T126.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1366.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T14.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T150.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T16.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1642.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T166.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T18.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T1800.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T182.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T198.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T2.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T20.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T218.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T22.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T238.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T24.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T26.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T262.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T28.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T286.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T314.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T32.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T34.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T344.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T378.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T38.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T4.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T414.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T42.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T454.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T46.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T50.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T54.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T546.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T598.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T6.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T60.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T656.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T66.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T718.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T72.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T788.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T8.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T80.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T86.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T864.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T946.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T96.mat
+/3- Velocity_Conc_fields/ConcentrationField/T13/Muv_cut.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T10.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1038.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T104.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T114.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T12.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1246.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T126.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1366.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T14.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T150.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T16.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1642.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T166.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T18.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T1800.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T182.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T198.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T2.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T20.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T218.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T22.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T238.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T24.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T26.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T262.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T28.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T286.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T314.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T32.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T34.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T344.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T378.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T38.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T4.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T414.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T42.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T454.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T46.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T50.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T54.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T546.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T598.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T6.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T60.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T656.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T66.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T718.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T72.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T788.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T8.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T80.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T86.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T864.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T946.mat
+/3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T96.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T10.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1038.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T104.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T114.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T12.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1246.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T126.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1366.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T138.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T14.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T150.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T16.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1642.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T166.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T18.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T1800.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T182.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T198.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T2.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T20.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T218.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T22.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T238.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T24.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T26.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T262.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T28.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T286.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T314.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T32.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T34.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T344.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T378.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T38.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T4.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T414.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T42.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T454.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T46.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T498.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T50.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T54.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T546.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T598.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T6.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T60.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T656.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T66.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T718.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T72.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T788.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T8.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T80.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T86.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T864.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T946.mat
+/3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T96.mat
+/3- Velocity_Conc_fields/VelocityField/T0.mat
+/3- Velocity_Conc_fields/VelocityField/T10.mat
+/3- Velocity_Conc_fields/VelocityField/T12.mat
+/3- Velocity_Conc_fields/VelocityField/T13.mat
+/3- Velocity_Conc_fields/VelocityField/T6.mat
+/3- Velocity_Conc_fields/VelocityField/T9.mat

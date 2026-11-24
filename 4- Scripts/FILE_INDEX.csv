@@ -1,0 +1,19 @@
+path,bytes,git_tracked_copy,complete_copy
+4- Scripts/L_start_calculation.m,2637,True,data-v1 release
+4- Scripts/README.md,5077,True,data-v1 release
+4- Scripts/build_data_archives.py,4347,True,data-v1 release
+4- Scripts/interface_length.m,1591,True,data-v1 release
+4- Scripts/interface_length.py,3007,True,data-v1 release
+4- Scripts/legacy_six_stages.json,2999,True,data-v1 release
+4- Scripts/load_numeric_array.m,968,True,data-v1 release
+4- Scripts/poster_reference_plot_pdf.py,2931,True,data-v1 release
+4- Scripts/poster_regression.json,545,True,data-v1 release
+4- Scripts/requirements.txt,50,True,data-v1 release
+4- Scripts/run_L_star.m,1565,True,data-v1 release
+4- Scripts/run_L_star.py,1955,True,data-v1 release
+4- Scripts/run_sigma_squared.m,1639,True,data-v1 release
+4- Scripts/run_sigma_squared.py,2520,True,data-v1 release
+4- Scripts/sigma_squared.m,2595,True,data-v1 release
+4- Scripts/sigma_squared.py,2684,True,data-v1 release
+4- Scripts/test_sigma_squared.m,772,True,data-v1 release
+4- Scripts/test_sigma_squared.py,2284,True,data-v1 release

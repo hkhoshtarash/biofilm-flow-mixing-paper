@@ -1,0 +1,62 @@
+{
+  "dx": 8.3978e-06,
+  "dy": 8.3978e-06,
+  "legacy_width_fraction": 0.44,
+  "concentration_level": 0.5,
+  "stages": [
+    {
+      "stage": "T0",
+      "velocity_file": "3- Velocity_Conc_fields/VelocityField/T0.mat",
+      "velocity_variable": "Muv_T0_U",
+      "concentration_directory": "3- Velocity_Conc_fields/ConcentrationField/T0",
+      "mask_concentration_file": "3- Velocity_Conc_fields/ConcentrationField/T0/C_cut_T2.mat",
+      "ta_seconds": 2.524692778711023,
+      "ta_source": "Preserved from supplied L_star/T0.mat (time / normalized time); not recomputed from mean speed"
+    },
+    {
+      "stage": "T6",
+      "velocity_file": "3- Velocity_Conc_fields/VelocityField/T6.mat",
+      "velocity_variable": "Muv_T6_U",
+      "concentration_directory": "3- Velocity_Conc_fields/ConcentrationField/T6",
+      "mask_concentration_file": "3- Velocity_Conc_fields/ConcentrationField/T6/C_cut_T2.mat",
+      "ta_seconds": 2.522457315182236,
+      "ta_source": "Preserved from supplied L_star/T6.mat (time / normalized time); not recomputed from mean speed"
+    },
+    {
+      "stage": "T9",
+      "velocity_file": "3- Velocity_Conc_fields/VelocityField/T9.mat",
+      "velocity_variable": "Muv_T9_U",
+      "concentration_directory": "3- Velocity_Conc_fields/ConcentrationField/T9",
+      "mask_concentration_file": "3- Velocity_Conc_fields/ConcentrationField/T9/C_cut_T2.mat",
+      "ta_seconds": 2.5232592798438476,
+      "ta_source": "Preserved from supplied L_star/T9.mat (time / normalized time); not recomputed from mean speed"
+    },
+    {
+      "stage": "T10",
+      "velocity_file": "3- Velocity_Conc_fields/VelocityField/T10.mat",
+      "velocity_variable": "Muv_T10_U",
+      "concentration_directory": "3- Velocity_Conc_fields/ConcentrationField/T10",
+      "mask_concentration_file": "3- Velocity_Conc_fields/ConcentrationField/T10/C_cut_T2.mat",
+      "ta_seconds": 2.5263449292300635,
+      "ta_source": "Preserved from supplied L_star/T10.mat (time / normalized time); not recomputed from mean speed"
+    },
+    {
+      "stage": "T12",
+      "velocity_file": "3- Velocity_Conc_fields/VelocityField/T12.mat",
+      "velocity_variable": "Muv_T12_U",
+      "concentration_directory": "3- Velocity_Conc_fields/ConcentrationField/T12",
+      "mask_concentration_file": "3- Velocity_Conc_fields/ConcentrationField/T12/C_cut_T2.mat",
+      "ta_seconds": 2.534150701850378,
+      "ta_source": "Preserved from supplied L_star/T12.mat (time / normalized time); not recomputed from mean speed"
+    },
+    {
+      "stage": "T13",
+      "velocity_file": "3- Velocity_Conc_fields/VelocityField/T13.mat",
+      "velocity_variable": "Muv_T13_U",
+      "concentration_directory": "3- Velocity_Conc_fields/ConcentrationField/T13",
+      "mask_concentration_file": "3- Velocity_Conc_fields/ConcentrationField/T13/C_cut_T2.mat",
+      "ta_seconds": 2.540621677194552,
+      "ta_source": "Preserved from supplied L_star/T13.mat (time / normalized time); not recomputed from mean speed"
+    }
+  ]
+}

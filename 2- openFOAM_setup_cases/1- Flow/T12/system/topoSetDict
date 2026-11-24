@@ -1,0 +1,45 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  11
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      topoSetDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+actions
+(
+    {
+        name    biofilmCellSet;
+        type    cellSet;
+        action  new; // Create a new cell set
+        source  surfaceToCell;
+        sourceInfo
+        {
+            file "constant/geometry/T12_Finalized_Scaled.stl";
+            outsidePoints ((0.0055 0.0002 0));
+            includeCut true;   // Include cells that intersect the STL
+            includeInside false; // Include cells inside the STL surface
+            includeOutside false; // Exclude cells outside the STL surface
+            nearDistance -1;
+	    curvature -100;
+	    useSurfaceOrientation false;
+        }
+    }
+    {
+        name    biofilm; // Cell zone name
+        type    cellZoneSet;
+        action  new; // Create a new cell zone
+        source  setToCellZone;
+        set     biofilmCellSet;
+    }
+);
+
+// ************************************************************************* //

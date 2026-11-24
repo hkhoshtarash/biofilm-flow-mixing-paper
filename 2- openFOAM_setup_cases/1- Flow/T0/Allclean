@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Remove all processor directories
+for file in processor*; do
+    if [ -e "$file" ]; then
+        rm -r "$file"
+        echo "Removed processor directory: $file"
+    fi
+done
+
+# Remove all log files
+for log_file in log*; do
+    if [ -e "$log_file" ]; then
+        rm -r "$log_file"
+        echo "Removed log file: $log_file"
+    fi
+done
+
+# Remove postProcess folder if it exists
+if [ -d "postProcessing" ]; then
+    rm -r "postProcessing"
+    echo "Removed postProcess folder"
+fi
+
+echo "Cleanup complete."
+

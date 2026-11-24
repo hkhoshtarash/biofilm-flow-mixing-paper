@@ -1,0 +1,85 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  11
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      blockMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+//added 0.003 buffer
+//used exact dimensions of all stls
+//(4.97422e-20 0 0) (0.015 0.00992621 2.61262e-05)OLD
+//length proportion 0.4726766
+
+backgroundMesh
+{
+    xMin            -0.003;
+    xMax            0.018;
+    yMin            0;
+    yMax            0.00992621;
+    zMin            0;
+    zMax            2.61262e-05;
+    xCells          2500;
+    yCells          1182;
+    zCells          1;
+}
+
+convertToMeters 1;
+
+defaultPatch
+{
+    name background;
+    type internal;
+}
+
+// delete "-disabled" to enable boundary settings
+boundary
+(
+    inlet { type patch; faces ( (0 3 7 4) ); }
+    outlet { type patch; faces ( (1 5 6 2) ); }
+    bottom { type wall; faces ( (0 4 5 1) ); }
+    top { type wall; faces ( (3 2 6 7) ); }
+    back { type patch; faces ( (0 1 2 3) ); }
+    front { type patch; faces ( (4 7 6 5) ); }
+);
+
+vertices
+(
+    ($!backgroundMesh/xMin $!backgroundMesh/yMin $!backgroundMesh/zMin)
+    ($!backgroundMesh/xMax $!backgroundMesh/yMin $!backgroundMesh/zMin)
+    ($!backgroundMesh/xMax $!backgroundMesh/yMax $!backgroundMesh/zMin)
+    ($!backgroundMesh/xMin $!backgroundMesh/yMax $!backgroundMesh/zMin)
+    ($!backgroundMesh/xMin $!backgroundMesh/yMin $!backgroundMesh/zMax)
+    ($!backgroundMesh/xMax $!backgroundMesh/yMin $!backgroundMesh/zMax)
+    ($!backgroundMesh/xMax $!backgroundMesh/yMax $!backgroundMesh/zMax)
+    ($!backgroundMesh/xMin $!backgroundMesh/yMax $!backgroundMesh/zMax)
+);
+
+blocks
+(
+    hex (0 1 2 3 4 5 6 7)
+    (
+        $!backgroundMesh/xCells
+        $!backgroundMesh/yCells
+        $!backgroundMesh/zCells
+    )
+    simpleGrading (1 1 1)
+);
+
+edges
+(
+);
+
+mergePatchPairs
+(
+);
+
+
+// ************************************************************************* //
