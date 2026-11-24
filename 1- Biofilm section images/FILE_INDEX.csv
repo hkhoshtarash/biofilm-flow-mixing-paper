@@ -1,7 +1,7 @@
-path,bytes,git_tracked_copy,complete_copy
-1- Biofilm section images/Raw_Images/GrowthBF_T0.tif,345622008,False,data-v1 release
-1- Biofilm section images/Raw_Images/GrowthBF_T10.tif,345611548,False,data-v1 release
-1- Biofilm section images/Raw_Images/GrowthBF_T12.tif,345613772,False,data-v1 release
-1- Biofilm section images/Raw_Images/GrowthBF_T13.tif,345614708,False,data-v1 release
-1- Biofilm section images/Raw_Images/GrowthBF_T6.tif,345609306,False,data-v1 release
-1- Biofilm section images/Raw_Images/GrowthBF_T9.tif,345610586,False,data-v1 release
+path,bytes,sha256,git_tracked_copy,complete_copy
+1- Biofilm section images/Raw_Images/GrowthBF_T0.tif,345622008,ce350d97297e4fd682167dc37648dc2037c8e6da0ff812a9b476553449a46994,False,data-v1 release
+1- Biofilm section images/Raw_Images/GrowthBF_T10.tif,345611548,ae83f5c078d9d122579e4c49fcd2c03a13194f020672a105eb00c783fcf5b9e4,False,data-v1 release
+1- Biofilm section images/Raw_Images/GrowthBF_T12.tif,345613772,56e6e3cea79c41a7b6f31e71cb19bdf0416b44589a9eb72fe0f7e4410f6454c8,False,data-v1 release
+1- Biofilm section images/Raw_Images/GrowthBF_T13.tif,345614708,053e0ca58ebb7aa09a00ec883c41ff486a31858b10837a54197a1477d08d44bf,False,data-v1 release
+1- Biofilm section images/Raw_Images/GrowthBF_T6.tif,345609306,d8a17fca362a49858c75c43ac1fda5ab09fbaa8377e5c59ec608950ffc2b85fb,False,data-v1 release
+1- Biofilm section images/Raw_Images/GrowthBF_T9.tif,345610586,2bbe6e9a79658a589131ca1f632007bbd402dde682d3c9a28ad99bdaa4544328,False,data-v1 release
