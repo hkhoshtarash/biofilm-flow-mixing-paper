@@ -35,11 +35,12 @@ def main():
     cache=(args.cache or root/'.data-downloads').resolve();cache.mkdir(parents=True,exist_ok=True)
     manifest=json.loads(Path(__file__).with_name('release_assets.json').read_text())
     expected={f['path']:f for f in manifest['files']}
-    base=f'https://github.com/{manifest["repository"]}/releases/download/{manifest["release_tag"]}/'
     for group in manifest['groups']:
         if args.group and group['id'] not in args.group:continue
         paths=[]
         for asset in group['assets']:
+            tag=asset.get('release_tag',manifest['release_tag'])
+            base=f'https://github.com/{manifest["repository"]}/releases/download/{tag}/'
             path=cache/asset['name'];paths.append(path)
             if not path.is_file() or path.stat().st_size!=asset['bytes'] or digest(path)!=asset['sha256']:
                 partial=path.with_name(path.name+'.partial')

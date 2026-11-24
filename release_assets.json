@@ -1,5 +1,5 @@
 {
-  "release_tag": "data-v1",
+  "release_tag": "data-v2",
   "repository": "hkhoshtarash/biofilm-flow-mixing-paper",
   "groups": [
     {
@@ -11,7 +11,8 @@
         {
           "name": "01_images.tar.gz.part-00",
           "bytes": 1798071054,
-          "sha256": "63a04a3eb217f5b34d24a893c7e07ec1e5fbdb37335e182a1f837ba8de29d283"
+          "sha256": "63a04a3eb217f5b34d24a893c7e07ec1e5fbdb37335e182a1f837ba8de29d283",
+          "release_tag": "data-v1"
         }
       ]
     },
@@ -24,7 +25,8 @@
         {
           "name": "02_cases.tar.gz.part-00",
           "bytes": 1594699186,
-          "sha256": "b65388fa5a98e57d30664e491fa5cef5c18e7fd81f5333b5ce4c54b2fdb71cc7"
+          "sha256": "b65388fa5a98e57d30664e491fa5cef5c18e7fd81f5333b5ce4c54b2fdb71cc7",
+          "release_tag": "data-v1"
         }
       ]
     },
@@ -37,25 +39,28 @@
         {
           "name": "03_fields.tar.gz.part-00",
           "bytes": 1887436800,
-          "sha256": "c074dcfc7dc73559785f7af7ef35bb83ccfdee5bbb83a6aef0bf6f7ae31ab7ff"
+          "sha256": "c074dcfc7dc73559785f7af7ef35bb83ccfdee5bbb83a6aef0bf6f7ae31ab7ff",
+          "release_tag": "data-v1"
         },
         {
           "name": "03_fields.tar.gz.part-01",
           "bytes": 513435087,
-          "sha256": "66625e26905600ea639fd67d4002c9155f580c08168686297786942da0b87029"
+          "sha256": "66625e26905600ea639fd67d4002c9155f580c08168686297786942da0b87029",
+          "release_tag": "data-v1"
         }
       ]
     },
     {
       "id": "04_scripts",
       "folder": "4- Scripts",
-      "file_count": 18,
-      "source_bytes": 40251,
+      "file_count": 2,
+      "source_bytes": 10635,
       "assets": [
         {
           "name": "04_scripts.tar.gz.part-00",
-          "bytes": 17116,
-          "sha256": "a7858856a08f6a423d9a5fc9ecf780edc16ad0be4ac087681d67e6856d286ca1"
+          "bytes": 4803,
+          "sha256": "bfacbcd0fc7701d013f9fa5aa277ab0a8955f942de7fb9b4b4b0a53e5d808df4",
+          "release_tag": "data-v2"
         }
       ]
     }
@@ -4514,112 +4519,72 @@
       "group": "03_fields"
     },
     {
-      "path": "4- Scripts/L_start_calculation.m",
-      "bytes": 2637,
-      "sha256": "e1179a0e0fdd8bc5d9d7c7280871d22eb9c08ee8291d4447b2746ed9cdf56b1e",
+      "path": "4- Scripts/calculate_L_star.m",
+      "bytes": 4943,
+      "sha256": "6d88dbc80a391b44085a2026f30361ee22a49d6c45db9618fc55015eb5946a01",
       "group": "04_scripts"
     },
     {
-      "path": "4- Scripts/README.md",
-      "bytes": 5077,
-      "sha256": "d4a3d953fbd94f9b25ce9ae0a9a9648445200eaaece44eb493912217498c970c",
+      "path": "4- Scripts/calculate_sigma_squared.m",
+      "bytes": 5692,
+      "sha256": "215a47cc43ef48d600e5a3ef0a7f4dcc2c5e752ae635e8fb6865b168cdbf9958",
       "group": "04_scripts"
+    }
+  ],
+  "stage_concentration_zips": [
+    {
+      "stage": "T0",
+      "asset": "T0.zip",
+      "concentration_snapshots": 59,
+      "all_mat_files": 62,
+      "bytes": 397998537,
+      "sha256": "86d6d0649ae3e606907e273ab4fd355d3309fe0ddd6047e35095cf7c9cde1fc0",
+      "release_tag": "data-v2"
     },
     {
-      "path": "4- Scripts/build_data_archives.py",
-      "bytes": 4432,
-      "sha256": "b1e347d4fec6e9ce20daaf8290d112c7783405252244b0340d52a07e278de242",
-      "group": "04_scripts"
+      "stage": "T6",
+      "asset": "T6.zip",
+      "concentration_snapshots": 59,
+      "all_mat_files": 60,
+      "bytes": 385296887,
+      "sha256": "9c143d1e9118055a806a66563e35ab83761a637a98b243c8a64b0500d6ee8c24",
+      "release_tag": "data-v2"
     },
     {
-      "path": "4- Scripts/interface_length.m",
-      "bytes": 1591,
-      "sha256": "4d8d59e43f1d8a69fe68decbf4c19ec99600b6f346afb74fec2144487cefe043",
-      "group": "04_scripts"
+      "stage": "T9",
+      "asset": "T9.zip",
+      "concentration_snapshots": 59,
+      "all_mat_files": 60,
+      "bytes": 387731008,
+      "sha256": "944a3d10ed12b8a6992358b681c46b495094f5b24bdc5e68c8d59407cf04a5eb",
+      "release_tag": "data-v2"
     },
     {
-      "path": "4- Scripts/interface_length.py",
-      "bytes": 3007,
-      "sha256": "0d1dc2800c10f3cadc8300acbad626ccb8bdc7065fee352a9b486cbade530a81",
-      "group": "04_scripts"
+      "stage": "T10",
+      "asset": "T10.zip",
+      "concentration_snapshots": 59,
+      "all_mat_files": 61,
+      "bytes": 395868208,
+      "sha256": "c79367f120fda9c9ec3d14113b218e43e2f2a3e7c3665f1a2f3995903c836d9a",
+      "release_tag": "data-v2"
     },
     {
-      "path": "4- Scripts/legacy_six_stages.json",
-      "bytes": 2999,
-      "sha256": "c6e959bed86335b18cb341c9b2feca97a4f4ddcef64360af97d8f209e3ee5633",
-      "group": "04_scripts"
+      "stage": "T12",
+      "asset": "T12.zip",
+      "concentration_snapshots": 59,
+      "all_mat_files": 61,
+      "bytes": 397854571,
+      "sha256": "6791058dceaa0387bc58c689cb68190277126b7b1d92478e54b7f67ddafdcccd",
+      "release_tag": "data-v2"
     },
     {
-      "path": "4- Scripts/load_numeric_array.m",
-      "bytes": 968,
-      "sha256": "59d55f8ca347a38d84da16299c5345d284737fac24e09eb9cd815973717fd56f",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/poster_reference_plot_pdf.py",
-      "bytes": 2931,
-      "sha256": "14a7e625d727a5c09bf9b134367624ff94e04cf42ae818445bd355d88bd1f36b",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/poster_regression.json",
-      "bytes": 545,
-      "sha256": "565ad2de885a0e9d9fe88f55139d9f630a065a52bd56371b854a673a8ce37d90",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/requirements.txt",
-      "bytes": 50,
-      "sha256": "302c237abd77480bd63848e5d7d8ce8ebf9ee6b066928bce2a866f37d915fdd1",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/run_L_star.m",
-      "bytes": 1565,
-      "sha256": "7e4647389a97e4813b355c883a149769b2c31c803bccc76d6a38a47fa80c8057",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/run_L_star.py",
-      "bytes": 1955,
-      "sha256": "37b607643362bf0c4b628f826f5931b1b6a05b9e45999a9c56b272f7bdb2298c",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/run_sigma_squared.m",
-      "bytes": 1639,
-      "sha256": "895ddbf4424c865cc195ee43703940f67c9cc4a1b060dd4629d74cc9e97f7b93",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/run_sigma_squared.py",
-      "bytes": 2520,
-      "sha256": "443345cd9223eb39bebda1a5addad9d86bfce076f1206e8029e43a79ea9f795b",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/sigma_squared.m",
-      "bytes": 2595,
-      "sha256": "bc2ce24fe11561c3515c8e3ebb52175e15fb49c951ac43b971624f7085153bb5",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/sigma_squared.py",
-      "bytes": 2684,
-      "sha256": "8363c9ea960d323ac9f1d7d4ab3ddffe3dd2a020bcb9554f3d6820594cd5bea7",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/test_sigma_squared.m",
-      "bytes": 772,
-      "sha256": "475feaa3de2bae36486d57b88ddbaf14a32bc298dba0962a24518ad8151c3c56",
-      "group": "04_scripts"
-    },
-    {
-      "path": "4- Scripts/test_sigma_squared.py",
-      "bytes": 2284,
-      "sha256": "eda84b97948fe12d351e65db1d8a2968668bf0813a75f8991d4baba46445cc75",
-      "group": "04_scripts"
+      "stage": "T13",
+      "asset": "T13.zip",
+      "concentration_snapshots": 59,
+      "all_mat_files": 61,
+      "bytes": 399373454,
+      "sha256": "72f70843783da07f131c3914f6a73070a669f7cb9993a93bb947b8a3fc5d50be",
+      "release_tag": "data-v2"
     }
   ]
 }
