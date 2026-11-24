@@ -1,5 +1,13 @@
-# 1- Biofilm section images
+# Biofilm images
 
-This folder preserves the supplied directory structure. Smaller original files are browsable here. The complete files, including large data, are attached to the [data-v1 release](https://github.com/hkhoshtarash/biofilm-flow-mixing-paper/releases/tag/data-v1). See `FILE_INDEX.csv` for every file.
+The supplied image files are available in the [complete dataset](https://github.com/hkhoshtarash/biofilm-flow-mixing-paper#complete-dataset). See `FILE_INDEX.csv` for the file list.
 
-From a repository clone run `python3 download_data.py` to download, hash-check, and restore the full four-folder dataset. Download is required before using the case directories or field analysis.
+![Microscopy and segmented porous structure with magnified regions](../docs/figures/experimental-overview.png)
+
+*Imaging and segmentation overview provided with the paper materials.*
+
+From the repository root, restore this folder with:
+
+```bash
+python3 download_data.py --group 01_images
+```

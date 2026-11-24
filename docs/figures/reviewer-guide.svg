@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title description">
+<title id="title">Reviewer guide to the research data and calculations</title>
+<desc id="description">Six stages share four folders: biofilm images, model cases, velocity and concentration fields, and two calculation files. Concentration contours give L star; normalized log speeds give sigma squared.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#527377"/></marker></defs>
+<rect width="1440" height="720" fill="#f5f8f7"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" fill="#19383d">
+<text x="48" y="64" font-size="32" font-weight="bold" fill="#19383d">A guide to the research materials</text>
+<text x="48" y="100" font-size="19" font-weight="normal" fill="#50666b">Choose a stage, locate the data, and follow the calculation.</text>
+<text x="48" y="150" font-size="14" font-weight="bold" fill="#50666b">STAGES</text>
+<rect x="158" y="120" width="90" height="44" rx="12" fill="#e1edeb" stroke="none"/>
+<text x="183" y="149" font-size="19" font-weight="bold" fill="#19383d">T0</text>
+<rect x="268" y="120" width="90" height="44" rx="12" fill="#e1edeb" stroke="none"/>
+<text x="293" y="149" font-size="19" font-weight="bold" fill="#19383d">T6</text>
+<rect x="378" y="120" width="90" height="44" rx="12" fill="#e1edeb" stroke="none"/>
+<text x="403" y="149" font-size="19" font-weight="bold" fill="#19383d">T9</text>
+<rect x="488" y="120" width="90" height="44" rx="12" fill="#e1edeb" stroke="none"/>
+<text x="513" y="149" font-size="19" font-weight="bold" fill="#19383d">T10</text>
+<rect x="598" y="120" width="90" height="44" rx="12" fill="#e1edeb" stroke="none"/>
+<text x="623" y="149" font-size="19" font-weight="bold" fill="#19383d">T12</text>
+<rect x="708" y="120" width="90" height="44" rx="12" fill="#e1edeb" stroke="none"/>
+<text x="733" y="149" font-size="19" font-weight="bold" fill="#19383d">T13</text>
+<rect x="48" y="202" width="300" height="178" rx="12" fill="#ffffff" stroke="#c9d9d6"/>
+<rect x="48" y="202" width="300" height="7" rx="0" fill="#24776f" stroke="none"/>
+<text x="70" y="246" font-size="17" font-weight="bold" fill="#24776f">1</text>
+<text x="70" y="282" font-size="24" font-weight="bold" fill="#19383d">Biofilm images</text>
+<text x="70" y="320" font-size="16" font-weight="normal" fill="#50666b">Microscopy and structure</text>
+<text x="70" y="348" font-size="16" font-weight="normal" fill="#50666b">Folder 1 · image files</text>
+<path d="M 354 290 H 384" fill="none" stroke="#527377" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="392" y="202" width="300" height="178" rx="12" fill="#ffffff" stroke="#c9d9d6"/>
+<rect x="392" y="202" width="300" height="7" rx="0" fill="#24776f" stroke="none"/>
+<text x="414" y="246" font-size="17" font-weight="bold" fill="#24776f">2</text>
+<text x="414" y="282" font-size="24" font-weight="bold" fill="#19383d">Model cases</text>
+<text x="414" y="320" font-size="16" font-weight="normal" fill="#50666b">Flow and transport setup</text>
+<text x="414" y="348" font-size="16" font-weight="normal" fill="#50666b">Folder 2 · OpenFOAM cases</text>
+<path d="M 698 290 H 728" fill="none" stroke="#527377" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="736" y="202" width="300" height="178" rx="12" fill="#ffffff" stroke="#c9d9d6"/>
+<rect x="736" y="202" width="300" height="7" rx="0" fill="#24776f" stroke="none"/>
+<text x="758" y="246" font-size="17" font-weight="bold" fill="#24776f">3</text>
+<text x="758" y="282" font-size="24" font-weight="bold" fill="#19383d">Field data</text>
+<text x="758" y="320" font-size="16" font-weight="normal" fill="#50666b">Velocity and concentration</text>
+<text x="758" y="348" font-size="16" font-weight="normal" fill="#50666b">Folder 3 · stage ZIPs</text>
+<path d="M 1042 290 H 1072" fill="none" stroke="#527377" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="1080" y="202" width="300" height="178" rx="12" fill="#ffffff" stroke="#c9d9d6"/>
+<rect x="1080" y="202" width="300" height="7" rx="0" fill="#24776f" stroke="none"/>
+<text x="1102" y="246" font-size="17" font-weight="bold" fill="#24776f">4</text>
+<text x="1102" y="282" font-size="24" font-weight="bold" fill="#19383d">Calculations</text>
+<text x="1102" y="320" font-size="15" font-weight="normal" fill="#50666b">calculate_L_star.m</text>
+<text x="1102" y="348" font-size="15" font-weight="normal" fill="#50666b">calculate_sigma_squared.m</text>
+<text x="48" y="441" font-size="14" font-weight="bold" fill="#50666b">FOLLOW THE TWO OUTPUTS</text>
+<path d="M1230 380 V430 H620 V473" fill="none" stroke="#527377" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1230 430 H1135 V473" fill="none" stroke="#527377" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="385" y="479" width="470" height="156" rx="12" fill="#e2efec" stroke="#bdd6d0"/>
+<text x="409" y="520" font-size="26" font-weight="bold" fill="#19383d">L* · interface length</text>
+<text x="409" y="557" font-size="20" font-weight="normal" fill="#19383d">C = 0.5 contour arc length</text>
+<text x="409" y="588" font-size="18" font-weight="normal" fill="#50666b">divided by the reference length</text>
+<rect x="900" y="479" width="470" height="156" rx="12" fill="#e2efec" stroke="#bdd6d0"/>
+<text x="924" y="520" font-size="26" font-weight="bold" fill="#19383d">σ² · log-speed variance</text>
+<text x="924" y="557" font-size="22" font-weight="normal" fill="#19383d">Var[ln(max(v / ⟨v⟩, 10⁻⁴))]</text>
+<text x="924" y="588" font-size="17" font-weight="normal" fill="#50666b">Original whole-fluid mean; divisor N</text>
+<text x="48" y="687" font-size="17" font-weight="normal" fill="#50666b">Each stage ZIP contains every supplied concentration snapshot for that stage.</text>
+</g></svg>

@@ -1,6 +1,20 @@
-# Biofilm-induced flow and mixing — paper data and calculations
+# Biofilm-induced flow and mixing
 
-## Concentration fields: direct downloads
+Data, model cases, and calculation files accompanying the paper on biofilm-induced flow heterogeneity, interface deformation, and mixing in porous media.
+
+[Reviewer guide](#reviewer-guide) · [Concentration downloads](#concentration-fields) · [Figures](#research-overview) · [Calculations](#calculations) · [Complete dataset](#complete-dataset)
+
+## Reviewer guide
+
+![Guide linking the four research folders to the L* and sigma-squared calculations](docs/figures/reviewer-guide.svg)
+
+- **Inspect the experimental structure:** [biofilm images](1-%20Biofilm%20section%20images/).
+- **Inspect the model inputs:** [flow and transport cases](2-%20openFOAM_setup_cases/).
+- **Choose a stage and field:** [velocity and concentration data](3-%20Velocity_Conc_fields/).
+- **Recover the metrics:** [L* calculation](4-%20Scripts/calculate_L_star.m) and [σ² calculation](4-%20Scripts/calculate_sigma_squared.m).
+
+## Concentration fields
+
 
 **All 354 concentration snapshots are included.** Download the MAT files separately for each stage:
 
@@ -13,20 +27,30 @@
 
 Each ZIP contains all 59 `C_cut_T*.mat` snapshots for that stage, plus all other MAT files supplied in its concentration folder. The stage names are experimental/model stages; the individual simulation times are in the `C_cut_T<time>.mat` filenames. See [the field folder](3-%20Velocity_Conc_fields/README.md) for details.
 
-## The four folders
+## Research overview
 
-1. **[1- Biofilm section images](1-%20Biofilm%20section%20images/)** — supplied TIFF images.
-2. **[2- openFOAM_setup_cases](2-%20openFOAM_setup_cases/)** — flow and transport cases for all six stages.
-3. **[3- Velocity_Conc_fields](3-%20Velocity_Conc_fields/)** — velocity fields, all concentration snapshots, and saved L* tables.
-4. **[4- Scripts](4-%20Scripts/)** — exactly two MATLAB calculation files:
-   - **[calculate_L_star.m](4-%20Scripts/calculate_L_star.m)**
-   - **[calculate_sigma_squared.m](4-%20Scripts/calculate_sigma_squared.m)**
+### Imaging and segmented structure
 
-The two calculation files are self-contained: no separate helper scripts or JSON configuration files are required. Each file contains usage examples and comments explaining its method and assumptions.
+<p align="center">
+  <img src="docs/figures/experimental-overview.png" width="580" alt="Microscopy image and segmented structure, with magnified regions and a scale bar" />
+</p>
 
-## Run the calculations in MATLAB
+*Microscopy and segmentation overview, with magnified regions showing the porous structure.*
 
-After restoring the complete data, open MATLAB in the repository root:
+### Velocity fields and distributions
+
+![Normalized velocity fields, velocity difference between T13 and T0, and velocity distributions](docs/figures/velocity-overview.png)
+
+*Normalized velocity fields, the T13–T0 velocity difference, and stage-dependent velocity distributions.*
+
+## Calculations
+
+The [Scripts folder](4-%20Scripts/) contains only two self-contained files. Each includes its method, assumptions, and usage instructions in the comments.
+
+- **[calculate_L_star.m](4-%20Scripts/calculate_L_star.m)** — recover the total C=0.5 contour length and divide by the reference interface length. Separate contour components and NaN masks are preserved.
+- **[calculate_sigma_squared.m](4-%20Scripts/calculate_sigma_squared.m)** — normalize speed by the original whole-fluid mean, floor normalized speed at `1e-4`, and calculate the population variance of its natural logarithm. Regional calculations share the same whole-fluid reference mean.
+
+After restoring the data, open MATLAB in the repository root:
 
 ```matlab
 addpath('4- Scripts');
@@ -34,17 +58,13 @@ calculate_L_star(pwd, fullfile(tempdir,'L_star.csv'));
 calculate_sigma_squared(pwd, fullfile(tempdir,'sigma_squared.csv'), 'positive-speed');
 ```
 
-The sigma² example explicitly assumes zero-speed matrix entries encode solids. Select an appropriate mask policy as explained in the function comments; valid stagnant-fluid zeros must be retained using a verified fluid mask.
+The example explicitly treats zero-speed matrix entries as solid-coded points. Select the fluid-mask policy appropriate to your sample, as described in the σ² function comments. Valid zero-speed fluid points must remain included through a suitable mask.
 
-**L*:** sum the physical arc lengths of all C=0.5 contour components and divide by the documented initial reference length. The supplied grid spacing and saved stage-specific time scales are preserved. NaN masks are retained; separate contours are not joined, smoothed, or clipped.
+## Complete dataset
 
-**σ²:** divide speed by the **original whole-fluid mean**, floor the **normalized speed** at `1e-4`, then compute the **population variance of its natural logarithm**, with divisor N. Inside/outside biofilm regions, when registered masks are provided, share that original whole-fluid mean. The threshold is dimensionless, not a fixed dimensional speed of 1e-4 m/s. Detailed comments are inside the MATLAB file.
+Large images, meshes, and field arrays are distributed as release assets. **GitHub's normal “Download ZIP” button does not include those large data files.**
 
-## Download the complete four-folder dataset
-
-GitHub's normal source-code ZIP does not include the large research-data files. The original release already contained all concentration MAT files in a combined archive; the updated release adds the easier per-stage ZIPs above and replaces the analysis folder with only the two MATLAB files.
-
-To restore all data and the current two-file Scripts folder:
+For concentration fields alone, use the stage ZIP links above. To restore the complete four-folder dataset:
 
 ```bash
 git clone https://github.com/hkhoshtarash/biofilm-flow-mixing-paper.git
@@ -52,12 +72,6 @@ cd biofilm-flow-mixing-paper
 python3 download_data.py
 ```
 
-The downloader uses Python 3.11+ and checks every archive and restored file against SHA-256 hashes. It reuses the unchanged image/case/field archives on data-v1 and restores the new two-file Scripts archive from **[data-v2](https://github.com/hkhoshtarash/biofilm-flow-mixing-paper/releases/tag/data-v2)**. Do not extract the old data-v1 Scripts archive over the current folder. Existing conflicting files are preserved rather than overwritten; use `--output /path/to/new-folder` if you have an older checkout with edited files.
+The downloader requires Python 3.11+ and checks file integrity. It restores the images, flow and transport cases, field data, and current two-file Scripts folder. Existing conflicting files are preserved; use `--output /path/to/new-folder` to restore into a separate directory.
 
-The updated snapshot has 744 supplied files across the four folders, including the two MATLAB files. Data-v1 remains available as a historical snapshot with the superseded scripts. See [upload instructions](UPLOAD_GUIDE.md) for future changes.
-
-## Validation and scientific notes
-
-The normalized sigma² method reproduces the supplied poster's native-cell regional example in Python (inside: 3.457614746508199; outside: 3.899177935087911). MATLAB uses the same formula, but was not executed in the preparation environment. OpenFOAM simulations were not rerun. Author documentation should specify the actual solver version, image phase labels, coordinate registration, units, fluid masks, and any sampling choices. The image and field files are preserved as supplied; no new segmentation or vector-field reconstruction is claimed.
-
-No new reuse license has been assigned automatically. Use the authors' agreed data/software license and preserve third-party solver licenses and citations.
+[Current release](https://github.com/hkhoshtarash/biofilm-flow-mixing-paper/releases/tag/data-v2) · [Future upload instructions](UPLOAD_GUIDE.md)
